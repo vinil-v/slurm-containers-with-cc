@@ -8,4 +8,3 @@ usermod -a -G docker ${USER};
 done
 newgrp docker
 systemctl restart docker
-echo "Docker group added to all users"
